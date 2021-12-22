@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.not-found {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 50px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.dashboard {
+  padding-top: 100px;
+}
+
+.mb {
+  margin-bottom: 80px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-cta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-cta button {
+  flex-grow: 1;
+}
+.modal-cta button:first-of-type {
+  margin-right: 5px;
+}
+.modal-cta button:last-of-type {
+  margin-left: 5px;
+}
